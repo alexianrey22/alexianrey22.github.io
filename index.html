@@ -1,1 +1,88 @@
-<!DOCTYPE html><meta charset="utf-8"><title>PostDeck</title><body style="font-family:system-ui;background:#0b0b10;color:#eee;padding:60px"><h1>PostDeck</h1><p><a style="color:#25F4EE" href="terms/">Terms of Service</a> · <a style="color:#25F4EE" href="privacy/">Privacy Policy</a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PostDeck — Post your videos to all your TikTok accounts</title>
+<meta name="description" content="Upload, caption and schedule your own videos to all your TikTok accounts from one desktop app.">
+<style>
+:root{--bg:#0b0b10;--panel:#13131b;--line:#262633;--text:#f2f2f7;--muted:#a0a0b5;--cyan:#25F4EE;--pink:#FE2C55}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(700px 450px at 85% -5%,rgba(254,44,85,.16),transparent 70%),radial-gradient(600px 420px at 5% 40%,rgba(37,244,238,.09),transparent 70%)}
+.wrap{position:relative;max-width:1100px;margin:0 auto;padding:0 24px}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:20px;letter-spacing:-.02em}
+.logo{width:28px;height:28px;position:relative}.logo i{position:absolute;width:17px;height:22px;border-radius:6px;top:3px}
+.logo i:first-child{left:1px;background:var(--cyan)}.logo i:last-child{left:10px;background:var(--pink);mix-blend-mode:screen}
+nav a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:15px}nav a:hover{color:var(--text)}
+.hero{text-align:center;padding:70px 0 40px}
+.hero h1{font-size:clamp(36px,6vw,62px);line-height:1.05;letter-spacing:-.035em;margin:0 0 18px}
+.hero h1 span{background:linear-gradient(90deg,var(--cyan),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);font-size:19px;max-width:640px;margin:0 auto}
+.shot{margin:50px auto 0;border-radius:18px;overflow:hidden;border:1px solid var(--line);box-shadow:0 40px 80px -30px rgba(0,0,0,.9);max-width:1000px}
+.shot img{display:block;width:100%;height:auto}
+.caption{color:#6f6f86;font-size:13px;text-align:center;margin-top:12px}
+section{padding:70px 0 10px}
+h2{font-size:30px;letter-spacing:-.02em;margin:0 0 30px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px}
+.card .n{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-weight:700;background:linear-gradient(135deg,rgba(37,244,238,.2),rgba(254,44,85,.2));margin-bottom:14px}
+.card h3{margin:0 0 6px;font-size:17px}.card p{margin:0;color:var(--muted);font-size:15px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.two img{width:100%;border-radius:14px;border:1px solid var(--line)}
+ul.check{list-style:none;padding:0;margin:0}ul.check li{padding:8px 0 8px 30px;position:relative;color:var(--muted)}
+ul.check li::before{content:"✓";position:absolute;left:0;color:var(--cyan);font-weight:700}
+ul.check b{color:var(--text)}
+footer{margin-top:80px;border-top:1px solid var(--line);padding:30px 0 50px;color:#7c7c92;font-size:14px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
+footer a{color:var(--muted);margin-right:18px}
+@media(max-width:760px){.two{grid-template-columns:1fr}nav a{margin-left:14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><div class="logo"><i></i><i></i></div>PostDeck</div>
+    <nav><a href="#how">How it works</a><a href="terms/">Terms</a><a href="privacy/">Privacy</a></nav>
+  </header>
+
+  <div class="hero">
+    <h1>One video.<br><span>All your TikTok accounts.</span></h1>
+    <p>PostDeck is a desktop app for creators who manage several TikTok accounts. Upload, caption and schedule your own videos from one place, without switching accounts.</p>
+    <div class="shot"><img src="publier.jpg" alt="PostDeck publishing screen: choose a video, write the caption and hashtags, select accounts"></div>
+    <div class="caption">The publishing screen (example data).</div>
+  </div>
+
+  <section id="how">
+    <h2>How it works</h2>
+    <div class="grid">
+      <div class="card"><div class="n">1</div><h3>Connect your accounts</h3><p>Sign in to each of your TikTok accounts through TikTok's official login. You stay in control and can disconnect at any time.</p></div>
+      <div class="card"><div class="n">2</div><h3>Build your library</h3><p>Drop your original videos into PostDeck. They stay on your computer.</p></div>
+      <div class="card"><div class="n">3</div><h3>Caption once</h3><p>Write the description, add hashtags or reuse a saved hashtag set.</p></div>
+      <div class="card"><div class="n">4</div><h3>Post or schedule</h3><p>Pick the accounts, then send now or at a set time, as a draft in the TikTok app or as a direct post.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="two">
+      <div>
+        <h2 style="text-align:left">Made for creators</h2>
+        <ul class="check">
+          <li><b>Multiple accounts</b>, one workflow, no switching.</li>
+          <li><b>Drafts or direct posts</b> through TikTok's official Content Posting API.</li>
+          <li><b>Scheduling</b> and saved <b>hashtag sets</b>.</li>
+          <li><b>History</b> of every post, account by account.</li>
+          <li><b>Private by design:</b> your videos and access tokens never leave your computer.</li>
+        </ul>
+      </div>
+      <img src="historique.jpg" alt="PostDeck history screen showing the status of each post">
+    </div>
+  </section>
+
+  <footer>
+    <div><a href="terms/">Terms of Service</a><a href="privacy/">Privacy Policy</a>Contact: postdeck.contact@gmail.com</div>
+    <div>PostDeck is an independent tool, not affiliated with TikTok or ByteDance.</div>
+  </footer>
+</div>
+</body>
+</html>
